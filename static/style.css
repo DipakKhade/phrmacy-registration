@@ -1,0 +1,187 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+body{
+    background: yellowgreen;
+}
+.header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: turquoise;
+    z-index: 1000;
+    box-shadow: 0.5rem 1.5rem rgba(0,0,0,-1);
+   
+}
+.header .logo img{
+    margin-top: 10px;
+    height: 30%;
+    width: 45%;
+    display: inline-block;
+}
+.header .headbar a{
+   
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: aliceblue;
+}
+.header .headbar a:hover{
+    color: blueviolet;
+    background: white;
+}
+.header .menubtn button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: aqua;
+    border: none;
+    background-image:url("C:\Users\Saurabh Balu Kokare\OneDrive\Documents\Html project\menu1.png");
+    border-radius: 10px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}
+.main .left{
+    padding-top: 2px;
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 50px;
+}
+.main .left h2{
+    padding-top: 46%;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(10, 10, 10);
+}
+.main .left h1{
+    text-align: center;
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 1000;
+    
+}
+.main .left p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(9, 9, 8);
+}
+.main .left button{
+    padding-top: 12px;
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(8, 240, 16);
+    border: 1px solid;
+    box-shadow: 0.5rem 1.5rem rgba(0,0,0,-1);
+    background-color: rgb(240, 245, 240) ;
+    border-radius: 10px;
+
+}
+
+.container{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    box-shadow: 0.5rem 1.5rem rgba(0,0,0,-1);
+    position: relative;
+    overflow: hidden;
+    width: 750px;
+    max-width: 100%;
+    min-height: 500px;
+}
+form{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+.social-container{
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+
+}
+.social-container{
+    margin: 20px 0;
+}
+span{
+    font-size: 12px;
+}
+a{
+    color: teal;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.input-field{
+    width: 100%;
+    height: 50px;
+    background-color:violet ;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.input-field i{
+    flex: 1;
+    text-align: center;
+    color: yellow;
+    font-size:18px;
+}
+.input-field input{
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color:cadetblue;
+}
+button{
+    font-size: larger;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: chocolate;
+}
